@@ -30,7 +30,7 @@ void Renderer::_InitInstance()
 	// The version of the engine
 	applicationInfo.engineVersion = 1;
 	// The version of Vulkan we're using for this application
-	applicationInfo.apiVersion = VK_API_VERSION;
+	applicationInfo.apiVersion = VK_API_VERSION_1_0;
 
 	// Filling out instance description:
 	// sType is mandatory
